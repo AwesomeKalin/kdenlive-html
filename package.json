@@ -1,0 +1,25 @@
+{
+  "name": "kdenlive-html",
+  "version": "1.0.0",
+  "description": "Kdenlive in the browser",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeKalin/kdenlive-html.git"
+  },
+  "author": "AwesomeKalin55",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AwesomeKalin/kdenlive-html/issues"
+  },
+  "homepage": "https://github.com/AwesomeKalin/kdenlive-html#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

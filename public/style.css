@@ -1,0 +1,24 @@
+body {
+    font-family: "Calibri";
+    background-color: #605C5C;
+    color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 8px;
+  }
+  
+  a {
+    
+  }

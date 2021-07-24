@@ -4,7 +4,8 @@
   "description": "Kdenlive in the browser",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/AwesomeKalin/kdenlive-html#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.4",
     "nodemon": "^2.0.12"
   },
   "dependencies": {
